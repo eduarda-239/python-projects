@@ -1,5 +1,6 @@
 from contador import contar_palavras   # Importa a função 'contar_palavras' do arquivo contador.py.
 
+
 frase = input("Digite uma frase: ").strip()  # Solicita uma frase ao usuário, remove espaços no início e no fim e armazena o resultado na variável 'frase'.
 
 if not frase:   # Verifica se o usuário não digitou nenhuma frase.
